@@ -13,6 +13,8 @@ return new class extends Migration
     {
         Schema::create('keyword_task', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('task_id')->constrained()->cascadeOnDelete();
+            $table->foreignId('keyword_id')->constrained()->cascadeOnDelete();
             $table->timestamps();
         });
     }
