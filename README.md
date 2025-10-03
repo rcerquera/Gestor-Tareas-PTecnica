@@ -123,4 +123,10 @@ npm run dev
 
 ---
 
+## Proyecto funcional 
+![alt text](image.png)
+
+---
+---
+
 **Desarrollado por: Roberto Cerquera**
